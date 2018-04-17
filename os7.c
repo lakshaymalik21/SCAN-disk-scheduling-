@@ -93,3 +93,15 @@ int main()
             }
 	    break;
     }
+    printf("\nSCAN disk scheduled queue:\n");
+    mov=mov+abs(cp-a[0]);
+    printf("%d , %d",cp,a[0]);
+    for(i=1;i<x;i++)
+    {
+        mov=mov+abs(a[i]-a[i-1]);
+        printf(" , %d",a[i]);
+    }
+    printf("\n");
+    printf("total distance (cylinders) = %d\n",mov);
+}
+
