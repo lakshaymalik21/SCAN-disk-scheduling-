@@ -1,11 +1,12 @@
+//this is a program to do disk scheduling 
 #include<math.h>
 #include<stdio.h>
 int main()
 {
     int i,n,j=0,k=0,x=0,l,req[50],mov=0,cp,ub,end,pv, lower[50],upper[50], temp,a[50];
-    printf("Enter total number of cylinders \n");
+    printf("Enter total number of cylinders \n");//reading total number of cylinders 
     scanf("%d",&ub);
-	printf("Enter the current position\n");
+	printf("Enter the current position\n");//read the current position 
     scanf("%d",&cp);
     printf("Enter the previous position\n");
     scanf("%d",&pv);
